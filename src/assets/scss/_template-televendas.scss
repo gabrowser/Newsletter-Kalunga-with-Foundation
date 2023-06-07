@@ -1,0 +1,121 @@
+.kanews {
+    .fw-normal {
+        font-weight: 400;
+    }
+    .fw-semibold {
+        font-weight: 600;
+    }
+    .fw-bold {
+        font-weight: 800;
+    }
+    .fs-italic {
+        font-style: italic;
+    }
+    .bg-grey-b {
+        background-color: #eaeaea;
+    }
+    .bg-light {
+        background-color: #F6F6F6;
+    }
+    .border {
+        border: 1px solid #dddddd;
+
+        &-none {
+            border: none;
+        }
+        &-grey {
+            border: 1px solid #6F787E;
+        }
+        &-grey-b {
+            border: 1px solid #dddddd;
+        }
+        &-start {
+            border-width: 0 0 0 1px;
+            &-none {
+                border-width: 1px 1px 1px 0px;
+            }
+        }
+        &-end {
+            border-width: 0 1px 0 0;
+            &-none {
+                border-width: 1px 0 1px 1px;
+            }
+        }
+        &-top {
+            border-width: 1px 0 0 0;
+            &-none {
+                border-width: 0 1px 1px 1px;
+            }
+        }
+        &-bottom {
+            border-width: 0 0 1px 0;
+            &-none {
+                border-width: 1px 1px 0 1px;
+            }
+        }
+    }
+    .text {
+        &-small {
+            font-size: 14px;
+        }
+        &-nowrap {
+            white-space: nowrap;
+        }
+        &-uppercase {
+            text-transform: uppercase;
+        }
+        &-emphasis {
+            color: #3c72b4;
+        }
+        &-disclaimer {
+            font-size: 12px;
+            font-style: italic;
+        }
+        &-title {
+            font-size: 24px;
+        }
+        &-subtitle {
+            font-size: 20px;
+        }
+    }
+    .callout {
+        &-warning {
+            background-color: #FAF3E1;
+            border: 1px solid #B4923C;
+            color: #373a3c;
+        }
+        &-danger {
+            background-color: #FDF2F3;
+            border-color: #d7263d;
+            color: #373a3c
+        }
+        &-success {
+            background-color: #E8F2F0;
+            border-color: #62A699;
+            color: #373a3c
+        }
+    }
+    .box-pin {
+        font-size: 26px;
+        border:2px dashed #000;
+        display:inline-block;
+        background-color: #ffffff;
+        strong {
+            display: block;
+            margin: 12px;
+        }
+    }
+}
+
+.kanews-header {
+    background-color: black;
+    img {
+        margin-top: 16px;
+    }
+    &__title {
+        font-size: 24px;
+    }
+    &__subtitle {
+        font-size: 20px;
+    }
+}
