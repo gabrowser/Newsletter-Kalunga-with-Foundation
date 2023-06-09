@@ -6,10 +6,13 @@
         font-weight: 600;
     }
     .fw-bold {
-        font-weight: 800;
+        font-weight: 700;
     }
     .fs-italic {
         font-style: italic;
+    }
+    .bg-black {
+        background-color: #000000;
     }
     .bg-grey-b {
         background-color: #eaeaea;
@@ -55,6 +58,12 @@
         }
     }
     .text {
+        &-white {
+            color: #ffffff;
+        }
+        &-grey {
+            color: #9e9e9e;
+        }
         &-small {
             font-size: 14px;
         }
@@ -118,4 +127,8 @@
     &__subtitle {
         font-size: 20px;
     }
+}
+
+.kanews-footer {
+    background-color: #000000;
 }
